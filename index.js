@@ -25,6 +25,6 @@ res.sendFile(path.join(__dirname + '/client/dist/index.html'));
 });
 
 //http://localhost:8080/
-app.listen(8080,() => {
-    console.log('application is running on port 8080');
+app.listen(3000,() => {
+    console.log('application is running on port 3000');
 });
